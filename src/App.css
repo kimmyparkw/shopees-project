@@ -1,0 +1,55 @@
+/* basic styling */
+body {
+  display: flex;
+  background-color: rgb(240, 243, 245);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    flex-grow: 1;
+    margin: 1.5em 10em;
+}
+
+h1 {
+    margin-bottom: .5em;
+}
+
+/* div styling */
+.searchbox, .results-container, .nominations-container {
+    box-shadow: 1px 1px 3px lightgray;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: .5em 0;
+    padding: 1em 1em;
+    border-radius: 3px;
+}
+
+.list-containers {
+    display: flex;
+}
+
+.results-container, .nominations-container {
+    width: 50%;
+}
+
+.results-container {
+    margin-right: .5em;
+}
+
+.nominations-container {
+    margin-left: .5em;
+}
+
+/* search div styling */
+input {
+    margin-top: .5em;
+    height: 2.5em;
+    border-radius: 3px;
+    border: .5px solid lightgray;
+}
+
